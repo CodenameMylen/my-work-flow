@@ -1,0 +1,27 @@
+{
+  "name": "flowcheck",
+  "version": "1.0.0",
+  "description": "Real-time flow visualization and load testing tool for developers",
+  "main": "server/index.js",
+  "bin": {
+    "flowcheck": "./bin/flowcheck.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bin/flowcheck.js",
+    "server": "node server/index.js"
+  },
+  "keywords": [
+    "load-test",
+    "visualization",
+    "react-flow",
+    "architecture-diagram",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "open": "^10.1.0"
+  }
+}
